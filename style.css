@@ -1,0 +1,570 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar{
+    display: inline-block;
+    margin-left: 2%;
+
+}
+
+
+.navbar-header{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.header{
+    padding-left: 20px;
+    
+    
+}
+
+.headers{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 25px;
+    
+}
+
+.select-input{
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-width: 1px;
+    border-color: black;
+    padding-left: 10px;
+    height: 3rem;
+
+}
+
+
+.search{
+    width: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-width: 1px;
+    position: relative;
+    border-color: black;
+    padding-left: 10px;
+    height: 3rem;
+}
+
+.Loginbutton{
+    background: none;
+    appearance: none;
+    padding: 0%;
+    margin: 0%;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #002f34;
+    flex: auto;
+    margin-top: 10px;
+    
+
+}
+
+.LoginB{
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-underline-position: below;
+    display: inline-block;
+}
+
+.sellbutton{
+    background: none;
+    border: none;
+    background-image: url("./assets/iconSellBorder.svg");
+    background-repeat: no-repeat;
+    background-size: 128px;
+    border-radius: 980px;
+    font-weight: 300;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    min-width: 60px;
+    padding: 15px 23px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.plus{
+    margin-right: .5rem;
+    overflow: clip;
+    
+}
+
+.SELL{
+    font-weight:550;
+    font-size: 1.4rem;
+    text-transform: uppercase; 
+}
+
+.buttonborder{
+    height: 3rem;
+    width: 9.3rem;
+    background-color: #f7f8f8;
+    border-radius: 2rem;
+    
+
+}
+
+.navbar-manu ul li{
+    display:inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 2%;
+    font-size: 1rem;
+    color: black;  
+    letter-spacing: 0.02rem;
+}
+
+
+.categories-l{
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.categories-lable{
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+
+.navbar-categories{
+    font-weight: bold;
+    cursor: pointer;
+    column-gap: 4.075rem;
+    row-gap: 1.6rem;
+    margin-bottom: 4.5rem;
+    display: flex;
+    box-sizing: inherit;
+    text-align: center;
+    padding-left: 4rem;
+}
+
+.navbar-categories1{
+    font-weight: bold;
+    cursor: pointer;
+    column-gap: 4.83rem;
+    row-gap: 1.6rem;
+    margin-bottom: 4rem;
+    display: flex;
+    box-sizing: inherit;
+    padding-left: 4rem;
+    text-align: center;
+    
+}
+
+
+.Mobile-Phone{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1.2rem;
+    max-width: 1200px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2rem;
+    padding-right: 5.7rem;
+    justify-content: space-between;
+    
+}
+
+.Mobiles{
+    color: black;
+}
+
+
+.MM-mainface{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Mobile-PHO{
+        border-radius: 0.1rem;
+        border: 0.2rem solid rgba(0,47,52,.2);
+        max-width: 5000px;
+        max-height: 1000px;
+        box-sizing: border-box;
+        width: 2000px;
+        
+        
+}
+
+
+.Mobile-Phone-Mainface{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    box-sizing: inherit;
+    max-width: 768px;
+    position: relative;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    
+}
+
+.Mobile-Catlog{
+    flex-wrap: wrap;
+    display: inline-flex;
+    font-size: 1.372rem;
+    line-height: 1.5495;
+    letter-spacing: -.02em;
+    font-family: Helvetica,sans-serif;
+    color: #002f34;
+    padding-top: 20px;
+    padding-left: 1.7rem;
+    margin-right: 1.6rem;
+    width: 15.5rem;
+    min-width: 12.5rem;
+    min-height: 100%;
+    box-sizing: inherit;
+    cursor: pointer;
+}
+
+
+.MP-Price{
+    line-height: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-family: Helvetica,sans-serif;
+    font-size: medium;
+    
+}
+
+.Mobile-Name{
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-family: Helvetica,sans-serif;
+    font-size: small;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.Location{
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-family: Helvetica,sans-serif;
+    font-size: small;
+}
+
+.Creation-date{
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-family: Helvetica,sans-serif;
+    font-size: xx-small;
+
+}
+
+.MP-prices-cat{
+    font-family: Helvetica,sans-serif;
+    padding-left: 1.5rem;
+ 
+    
+}
+
+.Car{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1.2rem;
+    max-width: 1200px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2rem;
+    padding-right: 5.7rem;
+    padding-top: 30px;
+    justify-content: space-between
+}
+
+.Car-PHO{
+        border-radius: 0.1rem;
+        border: 0.2rem solid rgba(0,47,52,.2);
+        max-width: 5000px;
+        max-height: 1000px;
+        box-sizing: border-box;
+        width: 2000px;
+        
+}
+
+.Car-Mainface{
+    padding-left: 1.2rem;
+    padding-right: 7%;
+    box-sizing: inherit;
+    max-width: 768px;
+    position: relative;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Car-Catlog{
+    flex-wrap: wrap;
+    display: inline-flex;
+    font-size: 1.372rem;
+    line-height: 1.5495;
+    letter-spacing: -.02em;
+    font-family: Helvetica,sans-serif;
+    color: #002f34;
+    padding-top: 20px;
+    padding-left: 1.7rem;
+    margin-right: 1.7rem;
+    width: 15.5rem;
+    min-width: 12.5rem;
+    min-height: 100%;
+    box-sizing: inherit;
+    cursor: pointer;
+}
+
+.Car-Price{
+    line-height: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-family: Helvetica,sans-serif;
+    font-size: medium;
+    
+}
+
+.Car-Name{
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-family: Helvetica,sans-serif;
+    font-size: small;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.Car-prices-cat{
+    font-family: Helvetica,sans-serif;
+    padding-left: 1.5rem;
+}
+
+.Bikee{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1.2rem;
+    max-width: 1200px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2rem;
+    padding-right: 5.7rem;
+    padding-top: 30px;
+    justify-content: space-between
+}
+
+.Bike-PHO{
+    border-radius: 0.1rem;
+        border: 0.2rem solid rgba(0,47,52,.2);
+        max-width: 5000px;
+        max-height: 1000px;
+        box-sizing: border-box;
+        width: 2000px;
+}
+
+.Bike-Mainface{
+    padding-left: 1.2rem;
+    padding-right: 7%;
+    box-sizing: inherit;
+    max-width: 768px;
+    position: relative;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Bike-Catlog{
+    flex-wrap: wrap;
+    display: inline-flex;
+    font-size: 1.372rem;
+    line-height: 1.5495;
+    letter-spacing: -.02em;
+    font-family: Helvetica,sans-serif;
+    color: #002f34;
+    padding-top: 20px;
+    padding-left: 1.7rem;
+    margin-right: 1.7rem;
+    width: 15.5rem;
+    min-width: 12.5rem;
+    min-height: 100%;
+    box-sizing: inherit;
+    cursor: pointer;
+}
+
+.Bike-Price{
+    line-height: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-family: Helvetica,sans-serif;
+    font-size: medium;
+}
+
+.Bike-Name{
+    letter-spacing: 0.1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-family: Helvetica,sans-serif;
+    font-size: small;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.Bike-prices-cat{
+    font-family: Helvetica,sans-serif;
+    padding-left: 1.5rem;
+}
+
+.footer-adv{
+    margin-top: 5%;
+    margin-left: 7%;
+    padding-bottom: 5%;
+    
+}
+
+.footer-adv-playstoreicon{
+    display: flex;
+    background-color:#f7f8f8;
+    padding-top: 10px;
+}
+
+.footer-adv1{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.Playstore-icon{ 
+    padding-top: 50px;
+    padding-left: 5%;
+}
+
+.Line-sperator{
+    margin-left: -10%;
+}
+
+.mainheader-footer{
+    display: flex;
+    padding: 30px;
+    color: #002f34;
+    font-size: 1.rem;
+    
+}
+
+.cat-main-footer{
+    margin-left:  7.5%;
+    list-style: none;
+    color: rgba(0,47,52,.64);
+    font-size: 1.rem;
+    cursor: pointer; 
+}
+
+.cat-main-footer1{
+    margin-left: 26.5%;
+    margin-top: -6%;
+    list-style: none; 
+    color: rgba(0,47,52,.64);
+    font-size: 1.rem;
+    cursor: pointer;
+}
+
+.cat-main-footer2{
+    margin-left: 44.5%;
+    margin-top: -6%;
+    list-style: none; 
+    color: rgba(0,47,52,.64);
+    font-size: 1.rem;
+    cursor: pointer;
+}
+
+.cat-main-footer3{
+    margin-left: 61%;
+    margin-top: -6.2%;
+    list-style: none;
+    color: rgba(0,47,52,.64);
+    font-size: 1.rem;
+    cursor: pointer;
+}
+
+
+.P-cat{
+    margin-left: 5%;
+}
+.T-Searches{
+    margin-left: 5.5%;
+}
+
+.ABOUT-US{
+    margin-left: 5.5%;
+}
+
+.OLX{
+    margin-left: 10.5%;
+}
+
+.F-U{
+    margin-left: 10%;
+}
+
+.Social-media{
+    margin-left: 72.5%;
+    margin-top: -8%;
+
+}
+
+.playstore-footer{
+    margin-left: 72.5%;
+    margin-top: 2.5%;
+}
+
+.upper-div{
+    background-color: #ebeeef;
+    padding: 1.6rem 0 3.4rem;
+}
+
+.lower-div{
+    padding: 1.2rem 0;
+    background-color: #002f34;
+    color: #f7f8f8;
+}
+
+.Classifieds{
+    padding-left: 70%;
+    
+}
+
+.Add2{
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.adv2{
+    margin-left: 15%;
+    cursor: pointer;
+    padding-top: 15px;
+}
